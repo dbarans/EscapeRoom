@@ -15,11 +15,11 @@ public class DoorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) // Jeœli naciœniêto spacjê
+        if (Input.GetKeyDown(KeyCode.E)) // Jeœli naciœniêto spacjê
         {
-            animator.SetTrigger("Open"); // Uruchom animacjê otwierania drzwi
-            Debug.Log("Otwieram drzwi");
+            animator.SetTrigger("OpenDoor"); // Odtwórz animacjê otwierania drzwi
         }
+        
 
     }
 }
